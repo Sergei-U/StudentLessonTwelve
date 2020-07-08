@@ -28,7 +28,6 @@ public class Student {
         this.name = name;
         this.soname = soname;
         this.age = age;
-
     }
 
     public Student(int groupID, int problemSolution, int moduleSolution, boolean experience) {
@@ -49,5 +48,5 @@ public class Student {
     public boolean getExperience(){
         return experience;
     }
-    
+
 }
